@@ -1,11 +1,32 @@
 #main {
-  display: block;
-  justify-content: center;
-  align-items: center;
+  font-family: sans-serif;
+  color: white;
+  display: flex;
+  flex-direction: column;
   text-align: center;
+  background-color: rgba(112, 7, 233, 0.787);
+  align-items: center;
 }
 
-#survey-form {
-  display: block;
-  width: 100vw;
+#full-survey-form-section {
+  background-color: rgba(38, 3, 77, 0.87);
+  width: 70%;
 }
+
+.survey-form {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+}
+
+#dropdown {
+  flex-basis: 2em;
+}
+
+/* #name {
+  opacity: 50%;
+}
+
+#name:hover {
+  opacity: 100%;
+} */
