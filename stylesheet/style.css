@@ -23,6 +23,11 @@
   flex-basis: 2em;
 }
 
+.input-field {
+  border-radius: 5px;
+  padding: 10px;
+}
+
 /* #name {
   opacity: 50%;
 }
